@@ -1,8 +1,8 @@
 var svg = document.getElementById("svg");
 var x = 0;
 var y = 0;
-var dx = 5; //The speed at which the SVG moves horizontally
-var dy = 5; //The speed at which the SVG moves vertically
+var dx = 2.5; //The speed at which the SVG moves horizontally
+var dy = 2.5; //The speed at which the SVG moves vertically
 var width = window.innerWidth;
 var height = window.innerHeight;
 
