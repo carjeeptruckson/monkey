@@ -20,8 +20,8 @@ function animate() {
         y += dy;
     }
 
-    svg.style.left = x + "px";
-    svg.style.top = y + "px";
+    img.style.left = x + "px";
+    img.style.top = y + "px";
 
     requestAnimationFrame(animate);
 }
