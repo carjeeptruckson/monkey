@@ -1,4 +1,4 @@
-var svg = document.getElementById("svg");
+var img = document.getElementById("img");
 var x = 0;
 var y = 0;
 var dx = 2.5; //The speed at which the SVG moves horizontally
@@ -10,12 +10,12 @@ function animate() {
     x += dx;
     y += dy;
 
-    if (x < 0 || x + svg.width.baseVal.value > width) {
+    if (x < 0 || x + img.width.baseVal.value > width) {
         dx = -dx;
         x += dx;
     }
 
-    if (y < 0 || y + svg.height.baseVal.value > height) {
+    if (y < 0 || y + img.height.baseVal.value > height) {
         dy = -dy;
         y += dy;
     }
